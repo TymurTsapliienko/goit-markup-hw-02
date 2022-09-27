@@ -1,5 +1,14 @@
+:root {
+    --hypertext-color:#2196F3;
+    --text-color:#757575;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+    font-size: 14px;
 }
 
 .header {
@@ -13,7 +22,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .header-item {
@@ -25,11 +34,11 @@ body {
 }
 
 .header-item:hover {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .header-item:focus {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .header-mail {
@@ -37,15 +46,15 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .header-mail:hover {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .header-mail:focus {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .header-tel {
@@ -53,7 +62,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .header-tel:hover {
@@ -106,7 +115,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .ouroccupation-title {
@@ -145,7 +154,7 @@ body {
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .list {
@@ -168,10 +177,10 @@ body {
 }
 
 .address-item:hover {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
 .address-item:focus {
-    color: #2196F3;
+    color: var(--hypertext-color);
 }
 
