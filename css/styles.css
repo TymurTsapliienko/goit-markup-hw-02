@@ -3,7 +3,6 @@
     --text-color:#757575;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
@@ -14,6 +13,41 @@ body {
 .header {
     background-color: #FFFFFF;
 }
+
+.hero-section {
+    background-color: #F5F5F5;
+}
+
+.hero-section-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.examples {
+    background-color: #F5F5F5;
+}
+
+.examples-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.examples-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
 
 .logo {
     font-family: 'Raleway';
@@ -29,7 +63,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     color: #212121;
 }
 
@@ -45,7 +78,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
@@ -61,7 +93,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
