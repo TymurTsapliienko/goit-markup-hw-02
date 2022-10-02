@@ -12,10 +12,25 @@ body {
 
 .header {
     background-color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .hero-section {
-    background-color: #F5F5F5;
+    background-color:#2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .hero-section-button {
@@ -25,6 +40,10 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding: 10 32;
+    background-color: #2196F3;
+    margin-left: 692px;
+    margin-right: 692px;
 }
 
 .examples {
@@ -108,16 +127,6 @@ body {
     background-color:#2F303A;
 }
 
-.hero-title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
 .hero-button {
     font-weight: 700;
@@ -132,6 +141,8 @@ body {
 
 .pros {
     background-color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .pros-title {
@@ -149,6 +160,11 @@ body {
     color: var(--text-color);
 }
 
+.ouroccupation {
+    background-color: #FFFFFF;
+    padding-bottom: 94px;
+}
+
 .ouroccupation-title {
     font-weight: 700;
     font-size: 36px;
@@ -160,6 +176,9 @@ body {
 
 .team {
     background-color: #F5F4FA;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 .team-title {
@@ -198,6 +217,7 @@ body {
 
 .footer {
     background-color: #2F303A;
+    height: 252px;
 }
 
 .address-maps {
@@ -214,4 +234,12 @@ body {
 .address-item:focus {
     color: var(--hypertext-color);
 }
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 
